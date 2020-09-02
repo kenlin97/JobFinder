@@ -1,0 +1,10 @@
+Automated Indeed Job Finder 
+This program will help you search through the indeed website to sort and filter the best matching jobs based on a list of keywords and ignore words. 
+
+HOW TO USE:
+Download all required packages in requirements.txt
+Under JobFinder.py, change the configuration variables based on what you would like to search along with the name of the output file
+Run the program and do not try to maximize the window. This program will automatically delete the window once complete.
+In the IDE console (I used pycharm), you will first see the initial link that is used for the search. Then it will display how many jobs are on the page and when each page is checked.
+After all pages are checked, it will output the number of filtered out jobs and the number of passed jobs. 
+Look through the txt file that is created depending on what you named it. The best matching jobs are listed at the top to help the user save time with the job search process. 
