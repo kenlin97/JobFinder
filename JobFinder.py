@@ -14,13 +14,13 @@ my_url = 'https://www.indeed.com/'
 
 #CONFIGURATION VARIABLES
 job_role = "Electrical Engineer"
-location = "Richmond"
+location = "Pennsylvania"
 pages_to_search = 4
 keyword_list = ["electrical", "circuit", "pcb", "test", "entry", "python", "bachelor", "robot", "analog", "sensor", "fast", "firmware", "battery", "automation", "LTspice"
                 , "robotics", "hardware"]
 ignore_list = ["Principal", "staff", "manager", "senior", "Sr."]
 filter_count = 3 #cutoff value for jobs that don't meet the number of keyword matches
-output_filename = "jobs_VA.txt"
+output_filename = "jobs_PA.txt"
 
 driver = webdriver.Chrome('C:/Users/mysti/PycharmProjects/Webscrape/drivers/chromedriver.exe')
 #driver.maximize_window()
